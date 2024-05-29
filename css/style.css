@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora|Roboto');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    color: #00457c;
+    border-bottom: 2px solid #00457c;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #00457c;  /* Changed background color */
+    color: white;
+    padding: 15px 0;  /* Added padding */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;  /* Increased padding */
+    display: block;
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;  /* Added border radius */
+}
+
+nav ul li a:hover {
+    background-color: #003366;  /* Changed hover background color */
+    border-bottom: 2px solid #00aaff;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #00457c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}
+.text-white {
+    color: white;
+    font-weight: bold;
+}
+
